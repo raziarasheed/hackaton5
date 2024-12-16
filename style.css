@@ -1,0 +1,128 @@
+/* styling form and resume sections */
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 20px;
+padding: 0;
+background-color: wheat;
+
+
+}
+form{
+margin: auto;
+background-color: hsl(180, 18%, 76%);
+border-radius: 8px;
+ box-shadow: 3px 3px rgb(209, 135, 135), -1em 0 .4em rgb(95, 95, 57);
+ padding: 20px;
+ max-width: 600px;
+}
+
+h1 {
+ text-align: center;
+ color: black;
+
+}
+fieldset {
+    border: 2px solid rgb(31, 87, 109);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+
+
+
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(31, 87, 109);
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+
+
+
+}
+
+input,textarea {
+margin-top: 40px;
+padding: 8px;
+width: calc(100%-1px);
+border: 1px solid rgb(91, 165, 194);
+border-radius: 4px;
+box-sizing: border-box;
+
+
+}
+
+button{
+
+display: block;
+width: 100%;
+background-color: aquamarine;
+color: black;
+border: none;
+border-radius: 4px;
+box-shadow: 3px 3px rgb(209, 135, 135), -1em 0 .4em rgb(95, 95, 57);
+margin-top: 10px;
+font-size: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 10px;
+cursor: pointer;
+
+
+
+
+
+}
+
+button:hover {
+    color:rgb(30, 168, 168)
+}
+
+#resumeoutput{
+max-width: 600px;
+margin: auto;
+padding: 20px;
+border: 2px solid skyblue;
+border-radius: 8px;
+background-color:rgb(235, 135, 213) ;
+background-clip: border-box;
+box-shadow: 3px 3px #2adc4e, -1em 0 .4em rgb(95, 95, 57);
+/* making editable  */
+outline: none;
+
+}
+.profilePicture {
+
+    display: block;
+    margin: 0 auto;
+    border:2px solid skyblue;
+    box-shadow: 3px 3px rgb(209, 201, 201), -1em 0 .4em rgb(95, 95, 57);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+
+
+
+
+
+
+}
+
+#resumeoutput h2{
+
+    color: black;
+}
+
+
+
+
+
+
